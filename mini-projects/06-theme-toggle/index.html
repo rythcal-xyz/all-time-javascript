@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Calendar</title>
+    <title>Dark Mode Toggle</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="calendar-container">
-        <p class="month-text"></p>
-        <p class="day-text"></p>
-        <p class="day-number"></p>
-        <p class="year"></p>
-    </div>
-
+<body id="body">
+    <input type="checkbox" id="darkMode" class="input">
+    <label for="darkMode" class="label">
+        <div class="toggle"></div>
+    </label>
+    
     <script src="main.js"></script>
 </body>
 </html>
