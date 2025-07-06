@@ -35,7 +35,7 @@ const photo = document.querySelector('.photo');
 const username = document.querySelector('.username');
 const message = document.querySelector('.message');
 
-let index = 0;
+let index = Math.floor(Math.random() * 6);
 
 function updateTestimonial() {
 	const { username: name, photoUrl, message: userMessage } = testimonial[index];
